@@ -1,0 +1,36 @@
+// css Variables
+:root
+{
+    // Start Colors variables
+
+    //Font Color
+    --font-color1: #0d6efd;
+    --font-color2: #c9dfff;
+    --font-color3: #dbdeef;
+    --font-color4: #3c88f9;
+    
+    --font-color5: #aec0dc;
+    --font-color6: #7fa7e2;
+    --font-color7: #d5dbe6;
+
+
+    /* Start Border Colors */
+    --border-color1: #5180c8;
+    --border-color2: #0067FF;
+    --border-color3: #041E42;
+    
+    /* Start Shadow Colors */
+    --box-shadow1: 2px 2px 2px #5180c8;
+    --box-shadow2: 2px 2px 2px #041E42;
+    --box-shadow3: 2px 2px 2px #0067ff;
+
+
+    /* Start Background Colors */
+    --bg-color1: #2a4c7b;
+    --bg-color2: #041E42;
+    --bg-color3: #3e4e64;
+    
+
+    /* Font Family Variables */
+    --roboto: 'Roboto', sans-serif;
+}

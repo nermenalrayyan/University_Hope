@@ -1,0 +1,395 @@
+// Start Header
+header
+{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    nav
+    {
+        .brand-title
+        {
+            display: flex;
+            align-items: center;
+
+            p
+            {
+                margin-left: 20px;
+                color: var(--font-color2);
+            }
+        }
+
+        .switcher
+        {
+            position: absolute;
+            visibility: hidden;
+            left: -9999px;
+        }
+
+        label
+        {
+            display: none;
+
+            i
+            {
+                font-size: 30px ;
+                margin-top: 5px;
+                color: white !important;
+            }
+        }
+
+        .menu-nav
+        {
+            z-index: 99999;
+            
+            ul
+            {
+                margin: 0;
+
+                a
+                {
+                    display: block;
+                }
+        }
+        }
+    }
+}
+// End Header
+
+
+
+
+// Start Home Page
+// Start Intro University
+.intro-university
+{
+//     width: 99.1%;
+
+    // .img-hero
+    // {
+    //     // background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/graduate-intro.png);
+    //     // background-repeat: no-repeat;
+    //     // background-size: cover;
+    //     // height: 100%;
+    //     // width: 100%;
+    //     padding: 0;
+    //     // text-align: right;
+    //     position: absolute;
+    //     right: 0;
+    //     top: 11%;
+
+    //     img
+    //     {
+    //         // width: 100%;
+    //         width: 49.4vw;
+    //         // height: 55vh;
+    //     }
+    // }
+}
+// End Intro University
+
+
+
+
+// Start Graduates
+.graduates
+{
+    // position: unset;
+
+    section
+    {
+        // background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/hero_graduates.png);
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // padding: 3rem !important;
+        // text-align: left !important;
+
+        h1
+        {
+            // text-align: left !important;
+        }
+    }
+}
+// Start Graduates
+// End Home Page
+
+
+
+
+
+//  Start Events
+//  Start Select Events
+.select-event
+{    
+    .item
+    {
+        padding: 1rem;
+
+        form
+        {
+            padding-bottom: 10px;
+
+            .select-item
+            {
+                flex-direction: column;
+                display: flex;
+
+                h6
+                {
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+                
+                select
+                {
+                    border-radius: 10px;
+                }
+            }
+
+            .button-item
+            {
+                text-align: center;
+                width: 14.666667%;
+
+                button
+                {
+                    margin-top: 18px;
+                }
+            }
+            
+        }
+    }
+    
+}
+//  End Select Events
+
+//  Start Events Cards
+.event-cards
+{
+    section
+    {
+        width: 30% !important;
+        height: fit-content;
+
+        .img
+        {
+            width: 100%;
+            height: 10rem;
+
+            img
+            {
+                width: 100%;
+                height: 100%;
+                border-radius: 25px 25px 0 0;
+            }
+        }
+
+        .text-main
+        {
+            width: 100%;
+            height: auto;
+            text-align: center;
+
+            a
+            {
+                border: 0;
+                padding: 0;
+                transition: .6s;
+
+                &:hover
+                {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+//  End Events Cards
+//  End Events
+
+
+
+
+
+// Start Reseach
+// Start Intro Research
+// .intro-research
+// {
+//     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/intro-research.png);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     // height: 65vh;
+
+
+//     .hero-items
+//     {
+//         // position: absolute;
+//         // top: 40%;
+//         // left: 25%;
+//     }
+// }
+// End Intro Research
+
+// Start Research Main
+.research-main
+{
+
+    section
+    {
+        display: flex;
+        height: 11rem;
+
+        img
+        {
+            border-radius: 25px 0 0 25px;
+        }
+    }
+}
+// End Research Main
+// End Reseach
+
+
+
+
+
+/* Start library */
+.work-hours
+{
+    .item
+    {
+        padding: 2rem;
+
+        table
+        {
+            width: 100%;
+
+            th
+            {
+                color: var(--font-color4);
+                font-size: x-large;
+            }
+
+            td
+            {
+                color: var(--font-color2);
+            }
+
+            td, th
+            {
+                text-align: center;
+                padding: 8px 15px;
+            }
+
+            tr:nth-child(even)
+            {
+                background-color: var(--bg-color3);
+
+                td
+                {
+                    color: var(--font-color2);                
+                }
+            }
+        }    
+    }
+}
+/* End library File css */
+
+
+
+
+/* Start Help File */
+.help-main
+{
+    .item
+    {
+
+        section
+        {
+            text-align: center;
+            width: 47%;
+        }
+
+        .last-section
+        {    
+            margin-left: 27%;
+        }
+    }
+}
+/* End Help File */
+
+
+
+
+
+// Start Privacy
+.privacy-main
+{
+    .item
+    {
+        
+        section
+        {
+            text-align: center;
+            width: 47%;
+        }
+    }
+}
+
+
+
+
+// Start Professors
+.professors-cards
+{
+    .item
+    {
+        display: flex;
+        justify-content: space-between;
+
+        section
+        {
+            width: 30% !important;
+            height: fit-content;
+            
+            .img
+            {
+                width: 100%;
+                height: 10rem;
+
+                img
+                {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 25px 25px 0 0;
+                }
+            }
+
+
+            .text-main
+            {
+                width: 100%;
+                height: auto;
+                text-align: center;
+
+                a.link-1
+                {
+                    border: 0;
+                    padding: 0;
+                    color: #ffffff;
+                    font-size: 17px;
+
+                    &:hover
+                    {
+                        color: var(--font-color4);
+                        text-decoration: underline;
+                    }
+                }
+
+                h6
+                {
+                    margin: 5% 0;
+                }
+            }
+        }
+    }
+}
+// End Professors

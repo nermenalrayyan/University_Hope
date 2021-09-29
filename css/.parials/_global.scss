@@ -1,0 +1,208 @@
+*, body, html
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: bold !important;
+    font-family: inherit;
+    text-transform: capitalize;
+}
+
+li
+{
+    list-style: none;
+}
+
+
+/* Start Link */
+a
+{
+    text-decoration: none;
+    color: var(--font-color5) !important;
+    font-size: 17px;
+
+    &:hover
+    {
+        color: var(--font-color4) !important;
+    }
+}
+
+.link
+{
+    // color: #ffffff;
+    padding: 10px;
+    // font-size: 17px;
+}
+
+.more
+{
+    text-align: center;
+    margin-bottom: 0.4rem;
+}
+/* End Link */
+
+p, h1, h2, h3, h4, h5, h6, a, button, .button-1, .button-2
+{
+    text-transform: capitalize;
+}
+
+
+a, button
+{
+    transition: .6s;
+}
+
+
+p
+{
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 18px;
+    letter-spacing: 1px;
+    color: var(--font-color3);
+    text-align: center;
+}
+
+
+h1
+{
+    text-align: center;
+    color: var(--font-color6);
+    margin-bottom: 15px;
+    margin-top: 0;
+    // font-size: 1.9em;
+    font-size: calc(2vw + 0.5vh + 0.5vmin);
+}
+
+h5
+{
+    color: var(--font-color6);
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+
+h6
+{
+    color: var(--font-color2);
+    margin-top: 5%;
+}
+
+button, select
+{
+    outline: none !important;
+}
+
+
+main
+{
+    margin: 3em 0;
+
+    .item
+    {
+        background-color: var(--bg-color2);
+        border: 3px solid var(--border-color2);
+        padding: 1rem;
+        border-radius: 25px;
+
+        &.item-small
+        {
+            width: 60%;
+            position: relative;
+            left: 21%;
+        }
+
+        section
+        {
+            border: 2px solid var(--border-color2);
+            padding: 0;
+            border-radius: 25px;
+            background-color: var(--bg-color3);
+            margin: 1em;
+            width: 97.4%;
+
+
+
+            img
+            {
+                width: 100%;
+                height: 100%;
+            }
+        
+            .text-main
+            {
+                padding: 1rem;
+                height: 100%;
+        
+                p
+                {
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}
+
+
+.search-box
+{
+    position: relative;
+    
+    .search
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        input.form-control
+        {
+            font-size: 18px;
+            margin: 1rem 0;
+            border-radius: 16px;
+            border: 3px solid var(--border-color1);
+            margin-bottom: -17px;
+        }
+
+        button
+        {
+            margin-top: 8%;
+        }
+    }
+}
+
+.line-bottom
+{
+    border-bottom: 3px solid var(--border-color2);
+}
+
+.line-top
+{
+    border-top: 3px solid var(--border-color2);
+}
+
+.first-item
+{
+    margin-top: 10% !important;
+}
+
+.social-links
+{
+    display: inline-flex;
+    margin-bottom: 0;
+
+    li
+    {
+        margin-right: 1.5rem;
+        width: 30px;
+        transition: .3s ease;
+
+        a
+        {
+           font-size: 28px !important;
+
+            &:hover
+            {
+                font-size: 40px !important;
+            }
+        }
+    }
+}

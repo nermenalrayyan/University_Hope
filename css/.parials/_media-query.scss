@@ -1,0 +1,194 @@
+@media (max-width: 290px)
+{
+
+}
+
+
+
+@media (min-width: 291px) and (max-width: 574px)
+{
+
+
+}
+
+
+
+// Start Small Screens (Smaller Smartphones)
+@media (min-width: 575px) and (max-width: 768px)
+{
+
+}
+// End Small Screens (Smaller Smartphones)
+
+
+
+// Start Medium Screens (Tablets And Larger Smartphones)
+@media screen and (max-width: 769px)
+{
+
+    html, body
+    {
+        overflow-x: hidden !important;
+    }
+
+// End Home Page File
+    // Start Navbar
+    nav
+    {
+        margin-right: -3px;
+    
+        .open, .close
+        {
+            display: block;
+        }
+
+        .close
+        {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+        }
+
+        .switcher:checked ~ .menu-nav
+        {
+            right: 0;
+        }
+
+        img
+        {
+            margin-left: 0 !important;
+        }
+
+        .menu-nav
+        {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: var(--bg-color2);
+            right: -100%;
+            top: 0;
+            text-align: center;
+            padding: 100px 0;
+            transition: .7s !important;
+        }
+
+        ul
+        {
+            flex-direction: column;
+            padding-left: 0;
+            padding-top: 2rem;
+            padding: 2rem 0 0 0;
+            
+            a
+            {
+                padding: 34px 0 !important;
+                font-size: 21px !important;
+
+                &:hover
+                {
+                    color: #f8f9fa !important;
+                }
+            }
+        }
+    }
+    // End Navbar
+
+    // Start hero
+    .hero
+    {
+        section
+        {
+            height: 102vh;
+
+            .hero-items 
+            {
+                position: absolute;
+                left: 0 !important;
+                // background-color: var(--bg-color2);
+                padding: 5% 0;
+                width: 100%;
+            }
+
+            .img-hero
+            {
+                img
+                {
+                    border-radius: 24px 24px 0 0 !important;
+                }
+            }
+
+            .img-hero, .hero-items
+            {
+                width: 100%;
+            }
+        }
+    }
+    // End Hero
+
+// End Home Page File 
+}
+// End Medium Screens (Tablets And Larger Smartphones)
+
+
+
+@media (min-width: 575px) and (max-width: 768px)
+{
+
+}
+
+
+
+// Start Medium Screens (Tablets And Larger Smartphones)
+@media (max-width: 991px)
+{
+
+}
+// End Medium Screens (Tablets And Larger Smartphones)
+
+
+
+// Start Large Screens (Laptops)
+@media (min-width: 769px) and (max-width: 1299px)
+{
+
+}
+// End Large Screens (Laptops)
+
+
+
+// Start XX Large Screens (Larger Desktops And Monitors)
+@media (min-width: 1300px)
+{
+
+}
+// End XX Large Screens (Larger Desktops And Monitors)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+bootstrap 5 responsive screen sizes:
+
+* They include x-small which is between 0 and 576px.
+
+* Small, which has the sm class infix is 576px or larger.
+
+* Medium, which has the md class infix is 768px or larger.
+
+* Large, which has the lg class infix is 992px or larger.
+
+* Extra-large, which is infixed by xl , is 1200px or larger.
+
+* Extra extra large, which is infixed by xxl , is 1400px or larger.
+*/
