@@ -58,64 +58,6 @@ header
 
 
 
-// Start Home Page
-// Start Intro University
-.intro-university
-{
-//     width: 99.1%;
-
-    // .img-hero
-    // {
-    //     // background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/graduate-intro.png);
-    //     // background-repeat: no-repeat;
-    //     // background-size: cover;
-    //     // height: 100%;
-    //     // width: 100%;
-    //     padding: 0;
-    //     // text-align: right;
-    //     position: absolute;
-    //     right: 0;
-    //     top: 11%;
-
-    //     img
-    //     {
-    //         // width: 100%;
-    //         width: 49.4vw;
-    //         // height: 55vh;
-    //     }
-    // }
-}
-// End Intro University
-
-
-
-
-// Start Graduates
-.graduates
-{
-    // position: unset;
-
-    section
-    {
-        // background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/hero_graduates.png);
-        // background-repeat: no-repeat;
-        // background-size: cover;
-        // padding: 3rem !important;
-        // text-align: left !important;
-
-        h1
-        {
-            // text-align: left !important;
-        }
-    }
-}
-// Start Graduates
-// End Home Page
-
-
-
-
-
 //  Start Events
 //  Start Select Events
 .select-event
@@ -162,6 +104,10 @@ header
 }
 //  End Select Events
 
+
+
+
+
 //  Start Events Cards
 .event-cards
 {
@@ -200,6 +146,11 @@ header
                     text-decoration: underline;
                 }
             }
+
+            p
+            {
+                margin-bottom: 0;
+            }
         }
     }
 }
@@ -209,25 +160,6 @@ header
 
 
 
-
-// Start Reseach
-// Start Intro Research
-// .intro-research
-// {
-//     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/intro-research.png);
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     // height: 65vh;
-
-
-//     .hero-items
-//     {
-//         // position: absolute;
-//         // top: 40%;
-//         // left: 25%;
-//     }
-// }
-// End Intro Research
 
 // Start Research Main
 .research-main
@@ -301,7 +233,6 @@ header
 {
     .item
     {
-
         section
         {
             text-align: center;

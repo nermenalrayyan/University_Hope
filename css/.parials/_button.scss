@@ -2,13 +2,11 @@
 {
         padding: 8px 10px;
         font-size: 16px;
-        // font-weight: bold;
         border-radius: 17px;
         color: var(--font-color2);
         background-color: var(--bg-color2);
         border: 2px solid var(--border-color1);
         box-shadow: var(--box-shadow1);
-        // transition: .6s;
 
     &.button-1:hover
     {
@@ -17,14 +15,6 @@
         color: var(--font-color2);
         border: 2px solid var(--border-color3);
     }
-
-    // &.secondary-button,
-    // &.primary-button:hover
-    // {
-    //     color: whitesmoke;
-    //     background-color: var(--bg-color2);
-    //     border: 2px solid var(--border-color2);
-    // }
 }
 
 
@@ -32,13 +22,11 @@
 {
     padding: 8px 10px;
     font-size: 16px;
-    // font-weight: bold;
     border-radius: 17px;
     background-color: var(--bg-color1);
     box-shadow: var(--box-shadow3);
     color: var(--font-color2);
     border: 2px solid var(--border-color2);
-    // transition: .6s;
 
     &.button-2:hover
     {
@@ -47,12 +35,4 @@
         border: 2px solid var(--border-color1);
         box-shadow: var(--box-shadow1);
     }
-
-    // &.secondary-button,
-    // &.primary-button:hover
-    // {
-    //     color: whitesmoke;
-    //     background-color: var(--bg-color2);
-    //     border: 2px solid var(--border-color2);
-    // }
 }
