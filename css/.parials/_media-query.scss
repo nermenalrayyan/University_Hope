@@ -35,7 +35,7 @@
     // Start Navbar
     nav
     {
-        margin-right: -3px;
+        // margin-right: -3px;
     
         .open, .close
         {
@@ -99,13 +99,19 @@
         section
         {
             height: 102vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            align-content: space-between;
+            flex-direction: column-reverse;
+           
 
             .hero-items 
             {
-                position: absolute;
-                left: 0 !important;
-                padding: 5% 0;
-                width: 100%;
+                // position: absolute;
+                // left: 0 !important;
+                // padding: 5% 0;
+                // width: 100%;
             }
 
             .img-hero
@@ -123,6 +129,22 @@
         }
     }
     // End Hero
+
+    .research-main
+    {
+        .item
+        {   
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            align-content: space-between;
+            flex-direction: column-reverse;
+
+            section
+            {
+            }
+        }
+    }
 
 // End Home Page File 
 }

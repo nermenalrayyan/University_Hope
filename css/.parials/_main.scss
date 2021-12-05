@@ -58,6 +58,19 @@ header
 
 
 
+.intro-university
+{
+    .hero-buttons
+    {
+        button
+        {
+            margin: 0 10px;
+        }
+    }
+}
+
+
+
 //  Start Events
 //  Start Select Events
 .select-event
@@ -111,46 +124,11 @@ header
 //  Start Events Cards
 .event-cards
 {
-    section
+    .text-main
     {
-        width: 30% !important;
-        height: fit-content;
-
-        .img
+        p
         {
-            width: 100%;
-            height: 10rem;
-
-            img
-            {
-                width: 100%;
-                height: 100%;
-                border-radius: 25px 25px 0 0;
-            }
-        }
-
-        .text-main
-        {
-            width: 100%;
-            height: auto;
-            text-align: center;
-
-            a
-            {
-                border: 0;
-                padding: 0;
-                transition: .6s;
-
-                &:hover
-                {
-                    text-decoration: underline;
-                }
-            }
-
-            p
-            {
-                margin-bottom: 0;
-            }
+            margin-bottom: 0;
         }
     }
 }
@@ -164,15 +142,23 @@ header
 // Start Research Main
 .research-main
 {
-
-    section
+    .item
     {
-        display: flex;
-        height: 11rem;
+        // height: 199vh;
+        // display: flex;
+        // flex-direction: column;
+        // align-content: space-between;
+        // justify-content: space-between;
 
-        img
+        section
         {
-            border-radius: 25px 0 0 25px;
+            display: flex;
+            height: 11rem;
+
+            img
+            {
+                border-radius: 25px 0 0 25px;
+            }
         }
     }
 }
@@ -276,49 +262,11 @@ header
         display: flex;
         justify-content: space-between;
 
-        section
+        .text-main
         {
-            width: 30% !important;
-            height: fit-content;
-            
-            .img
+            h6
             {
-                width: 100%;
-                height: 10rem;
-
-                img
-                {
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 25px 25px 0 0;
-                }
-            }
-
-
-            .text-main
-            {
-                width: 100%;
-                height: auto;
-                text-align: center;
-
-                a.link-1
-                {
-                    border: 0;
-                    padding: 0;
-                    color: #ffffff;
-                    font-size: 17px;
-
-                    &:hover
-                    {
-                        color: var(--font-color4);
-                        text-decoration: underline;
-                    }
-                }
-
-                h6
-                {
-                    margin: 5% 0;
-                }
+                margin: 5% 0;
             }
         }
     }

@@ -42,7 +42,7 @@ a, button {
 }
 
 p {
-  font-size: 16px;
+  font-size: calc(0.3em + 1vw);
   line-height: 28px;
   margin-top: 18px;
   letter-spacing: 1px;
@@ -73,6 +73,31 @@ button, select {
   outline: none !important;
 }
 
+.cards section {
+  width: 30% !important;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.cards section .img {
+  height: 10rem;
+}
+
+.cards section .img img {
+  border-radius: 25px 25px 0 0;
+}
+
+.cards section .text-main {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.cards section .text-main a:hover {
+  text-decoration: underline;
+}
+
 main {
   margin: 3em 0;
 }
@@ -95,8 +120,8 @@ main .item section {
   padding: 0;
   border-radius: 25px;
   background-color: var(--bg-color3);
-  margin: 1em;
-  width: 97.4%;
+  width: 97.5%;
+  margin: 1rem;
 }
 
 main .item section img {
@@ -274,16 +299,12 @@ header nav .menu-nav ul a {
 .hero section {
   height: 55vh;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .hero section .hero-items {
-  position: absolute;
-  left: 0;
-  border-radius: 24px 0 0 24px;
-  height: 100%;
-}
-
-.hero section .hero-items .hero-elements {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,38 +312,34 @@ header nav .menu-nav ul a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 4.3em 0.9em;
-}
-
-.hero section .hero-items .hero-elements button {
-  margin: 0 1.5rem 0 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
 }
 
 .hero section .img-hero {
   padding: 0;
-  position: absolute;
-  right: 0;
 }
 
 .hero section .img-hero img {
   border-radius: 0 24px 24px 0;
-  width: 100% !important;
-  height: 54.4vh;
 }
 
 .hero section .img-hero, .hero section .hero-items {
-  width: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 @media screen and (max-width: 769px) {
   html, body {
     overflow-x: hidden !important;
-  }
-  nav {
-    margin-right: -3px;
   }
   nav .open, nav .close {
     display: block;
@@ -368,18 +385,42 @@ header nav .menu-nav ul a {
   }
   .hero section {
     height: 102vh;
-  }
-  .hero section .hero-items {
-    position: absolute;
-    left: 0 !important;
-    padding: 5% 0;
-    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .hero section .img-hero img {
     border-radius: 24px 24px 0 0 !important;
   }
   .hero section .img-hero, .hero section .hero-items {
     width: 100%;
+  }
+  .research-main .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
 
@@ -446,6 +487,10 @@ header nav .menu-nav ul a {
   display: block;
 }
 
+.intro-university .hero-buttons button {
+  margin: 0 10px;
+}
+
 .select-event .item {
   padding: 1rem;
 }
@@ -482,53 +527,18 @@ header nav .menu-nav ul a {
   margin-top: 18px;
 }
 
-.event-cards section {
-  width: 30% !important;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.event-cards section .img {
-  width: 100%;
-  height: 10rem;
-}
-
-.event-cards section .img img {
-  width: 100%;
-  height: 100%;
-  border-radius: 25px 25px 0 0;
-}
-
-.event-cards section .text-main {
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-
-.event-cards section .text-main a {
-  border: 0;
-  padding: 0;
-  -webkit-transition: .6s;
-  transition: .6s;
-}
-
-.event-cards section .text-main a:hover {
-  text-decoration: underline;
-}
-
-.event-cards section .text-main p {
+.event-cards .text-main p {
   margin-bottom: 0;
 }
 
-.research-main section {
+.research-main .item section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 11rem;
 }
 
-.research-main section img {
+.research-main .item section img {
   border-radius: 25px 0 0 25px;
 }
 
@@ -589,43 +599,7 @@ header nav .menu-nav ul a {
           justify-content: space-between;
 }
 
-.professors-cards .item section {
-  width: 30% !important;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.professors-cards .item section .img {
-  width: 100%;
-  height: 10rem;
-}
-
-.professors-cards .item section .img img {
-  width: 100%;
-  height: 100%;
-  border-radius: 25px 25px 0 0;
-}
-
-.professors-cards .item section .text-main {
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-
-.professors-cards .item section .text-main a.link-1 {
-  border: 0;
-  padding: 0;
-  color: #ffffff;
-  font-size: 17px;
-}
-
-.professors-cards .item section .text-main a.link-1:hover {
-  color: var(--font-color4);
-  text-decoration: underline;
-}
-
-.professors-cards .item section .text-main h6 {
+.professors-cards .item .text-main h6 {
   margin: 5% 0;
 }
 
