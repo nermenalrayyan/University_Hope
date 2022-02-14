@@ -1,0 +1,170 @@
+*, body, html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: bold !important;
+  font-family: inherit;
+  text-transform: capitalize;
+}
+
+li {
+  list-style: none;
+}
+
+/* Start Link */
+a {
+  text-decoration: none;
+  color: var(--font-color5) !important;
+  font-size: 17px;
+}
+a:hover {
+  color: var(--font-color4) !important;
+}
+
+.link {
+  padding: 10px;
+}
+
+.more {
+  text-align: center;
+}
+
+/* End Link */
+p, h1, h2, h3, h4, h5, h6, a, button, .button-1, .button-2 {
+  text-transform: capitalize;
+}
+
+a, button {
+  transition: 0.6s;
+}
+
+p {
+  font-size: 1em;
+  line-height: 28px;
+  margin-top: 18px;
+  letter-spacing: 1px;
+  color: var(--font-color3);
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: var(--font-color6);
+  margin-bottom: 15px;
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+h5 {
+  color: var(--font-color6);
+  margin-bottom: 15px;
+  font-size: x-large;
+}
+
+h6 {
+  color: var(--font-color2);
+  margin-top: 5%;
+}
+
+button, select {
+  outline: none !important;
+}
+
+.cards section {
+  width: 30% !important;
+  height: fit-content;
+}
+.cards section .img {
+  height: 10rem;
+}
+.cards section .img img {
+  border-radius: 25px 25px 0 0;
+}
+.cards section .text-main {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.cards section .text-main a:hover {
+  text-decoration: underline;
+}
+main {
+  margin: 3em 0;
+}
+main .item {
+  background-color: var(--bg-color2);
+  border: 3px solid var(--border-color2);
+  padding: 1rem;
+  border-radius: 25px;
+}
+main .item.item-small {
+  width: 60%;
+  position: relative;
+  left: 21%;
+}
+main .item section {
+  border: 2px solid var(--border-color2);
+  padding: 0;
+  border-radius: 25px;
+  background-color: var(--bg-color3);
+  width: 97.5%;
+  margin: 1rem;
+}
+main .item section img {
+  width: 100%;
+  height: 100%;
+}
+main .item section .text-main {
+  padding: 1rem;
+  height: 100%;
+}
+main .item section .text-main p {
+  line-height: 22px;
+}
+
+.search-box {
+  position: relative;
+}
+.search-box .search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.search-box .search input.form-control {
+  font-size: 18px;
+  margin: 1rem 0;
+  border-radius: 16px;
+  border: 3px solid var(--border-color1);
+  margin-bottom: -17px;
+}
+.search-box .search button {
+  margin-top: 6%;
+}
+
+.line-bottom {
+  border-bottom: 3px solid var(--border-color2);
+}
+
+.line-top {
+  border-top: 3px solid var(--border-color2);
+}
+
+.first-item {
+  margin-top: 7.5em !important;
+}
+
+.social-links {
+  display: inline-flex;
+  margin-bottom: 0;
+}
+.social-links li {
+  margin-right: 1.5rem;
+  width: 30px;
+  transition: 0.3s ease;
+}
+.social-links li a {
+  font-size: 28px !important;
+}
+.social-links li a:hover {
+  font-size: 40px !important;
+}

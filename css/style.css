@@ -42,7 +42,7 @@ a, button {
 }
 
 p {
-  font-size: calc(0.3em + 1vw);
+  font-size: 1em;
   line-height: 28px;
   margin-top: 18px;
   letter-spacing: 1px;
@@ -55,7 +55,7 @@ h1 {
   color: var(--font-color6);
   margin-bottom: 15px;
   margin-top: 0;
-  font-size: calc(1.9vw + 0.5vh + 0.5vmin);
+  font-size: 2rem;
 }
 
 h5 {
@@ -337,9 +337,29 @@ header nav .menu-nav ul a {
           flex: 1;
 }
 
+@media (max-width: 425px) {
+  h1 {
+    font-size: 7vw;
+  }
+  p {
+    font-size: 4vw;
+  }
+}
+
 @media screen and (max-width: 769px) {
   html, body {
     overflow-x: hidden !important;
+  }
+  main section {
+    width: 100% !important;
+    margin: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   nav .open, nav .close {
     display: block;
@@ -372,8 +392,6 @@ header nav .menu-nav ul a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-left: 0;
-    padding-top: 2rem;
     padding: 2rem 0 0 0;
   }
   nav ul a {
@@ -405,22 +423,6 @@ header nav .menu-nav ul a {
   }
   .hero section .img-hero, .hero section .hero-items {
     width: 100%;
-  }
-  .research-main .item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -ms-flex-line-pack: justify;
-        align-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
   }
 }
 

@@ -1,14 +1,23 @@
-@media (max-width: 290px)
+@media screen and (max-width: 320px)
 {
-
+    // h1 {
+    //     font-size: 20px;
+    // }
 }
 
 
 
-@media (min-width: 291px) and (max-width: 574px)
+@media (max-width: 425px)
 {
+    h1
+    {
+        font-size: 7vw;
+    }
 
-
+    p 
+    {
+        font-size: 4vw;
+    }
 }
 
 
@@ -30,6 +39,16 @@
     {
         overflow-x: hidden !important;
     }
+
+    main {
+        section {
+            width: 100% !important;
+            margin: 0 !important;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+
 
 // End Home Page File
     // Start Navbar
@@ -92,41 +111,41 @@
     // End Navbar
 
     // Start hero
-//     .hero
-//     {
-//         section
-//         {
-//             height: 102vh;
-//             display: flex;
-//             flex-wrap: wrap;
-//             align-items: flex-end;
-//             align-content: space-between;
-//             flex-direction: column-reverse;
+    .hero
+    {
+        section
+        {
+            height: 102vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            align-content: space-between;
+            flex-direction: column-reverse;
            
 
-//             .hero-items 
-//             {
-//                 // position: absolute;
-//                 // left: 0 !important;
-//                 // padding: 5% 0;
-//                 // width: 100%;
-//             }
+            // .hero-items 
+            // {
+            //     // position: absolute;
+            //     // left: 0 !important;
+            //     // padding: 5% 0;
+            //     // width: 100%;
+            // }
 
-//             .img-hero
-//             {
-//                 img
-//                 {
-//                     border-radius: 24px 24px 0 0 !important;
-//                 }
-//             }
+            .img-hero
+            {
+                img
+                {
+                    border-radius: 24px 24px 0 0 !important;
+                }
+            }
 
-//             .img-hero, .hero-items
-//             {
-//                 width: 100%;
-//             }
-//         }
-//     }
-//     // End Hero
+            .img-hero, .hero-items
+            {
+                width: 100%;
+            }
+        }
+    }
+    // End Hero
 
 //     .research-main
 //     {
