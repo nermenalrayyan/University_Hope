@@ -1,12 +1,12 @@
 .feature-item
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     .feature-section
     {   
         border-radius: 74px !important;
-        width: 22%;
+        width: 125px;
         height: 222px;
 
         .text-main

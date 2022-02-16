@@ -1,0 +1,23 @@
+.hero section {
+  display: flex;
+}
+.hero section .hero-items {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 0 20px;
+}
+.hero section .img-hero {
+  padding: 0;
+}
+.hero section .img-hero img {
+  border-radius: 0 24px 24px 0;
+}
+.hero section .img-hero, .hero section .hero-items {
+  flex: 1;
+}
+.hero section .hero-buttons button {
+  margin: 0 10px 20px 10px;
+}

@@ -107,8 +107,6 @@ main .item section {
   padding: 0;
   border-radius: 25px;
   background-color: var(--bg-color3);
-  width: 97.5%;
-  margin: 1rem;
 }
 main .item section img {
   width: 100%;

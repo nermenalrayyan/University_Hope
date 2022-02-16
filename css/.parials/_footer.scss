@@ -6,8 +6,8 @@
     .first-row
     {
             display: flex;
-            justify-content: space-between;
-            padding: 3rem 5rem 0 4.5rem;
+            justify-content: space-evenly;
+            padding-top: 3rem;
 
         ul
         {
@@ -62,7 +62,7 @@
     }
     .copyright
     {
-        padding-bottom: 2.4rem;
+        padding-bottom: 3rem;
         text-align: center;
         height: 22px;
 

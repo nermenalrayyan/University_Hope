@@ -120,8 +120,6 @@ main .item section {
   padding: 0;
   border-radius: 25px;
   background-color: var(--bg-color3);
-  width: 97.5%;
-  margin: 1rem;
 }
 
 main .item section img {
@@ -297,8 +295,6 @@ header nav .menu-nav ul a {
 }
 
 .hero section {
-  height: 55vh;
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -320,7 +316,7 @@ header nav .menu-nav ul a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px;
+  padding: 20px 20px 0 20px;
 }
 
 .hero section .img-hero {
@@ -337,12 +333,41 @@ header nav .menu-nav ul a {
           flex: 1;
 }
 
+.hero section .hero-buttons button {
+  margin: 0 10px 20px 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .hero-buttons {
+    text-align: center;
+  }
+  .hero-buttons button {
+    margin: 0 0 20px 0 !important;
+  }
+}
+
 @media (max-width: 425px) {
   h1 {
     font-size: 8vw;
   }
+  h6 {
+    text-align: center;
+  }
   p {
     font-size: 4vw;
+  }
+  .hero-buttons .button-1 {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .footer .first-row {
+    display: -ms-grid !important;
+    display: grid !important;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
 }
 
@@ -351,8 +376,6 @@ header nav .menu-nav ul a {
     overflow-x: hidden !important;
   }
   main section {
-    width: 100% !important;
-    margin: 0 !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -402,7 +425,6 @@ header nav .menu-nav ul a {
     color: #f8f9fa !important;
   }
   .hero section {
-    height: 102vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -418,11 +440,23 @@ header nav .menu-nav ul a {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  .hero section .img-hero {
+    height: 55%;
+  }
   .hero section .img-hero img {
     border-radius: 24px 24px 0 0 !important;
   }
   .hero section .img-hero, .hero section .hero-items {
     width: 100%;
+  }
+  .footer .item:nth-of-type(2) {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .feature-item .feature-section {
+    margin: 10px;
   }
 }
 
@@ -487,10 +521,6 @@ header nav .menu-nav ul {
 
 header nav .menu-nav ul a {
   display: block;
-}
-
-.intro-university .hero-buttons button {
-  margin: 0 10px;
 }
 
 .select-event .item {
@@ -613,10 +643,10 @@ header nav .menu-nav ul a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 3rem 5rem 0 4.5rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 3rem;
 }
 
 .footer .first-row ul {
@@ -654,7 +684,7 @@ header nav .menu-nav ul a {
 }
 
 .footer .copyright {
-  padding-bottom: 2.4rem;
+  padding-bottom: 3rem;
   text-align: center;
   height: 22px;
 }
@@ -668,14 +698,13 @@ header nav .menu-nav ul a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .feature-item .feature-section {
   border-radius: 74px !important;
-  width: 22%;
+  width: 125px;
   height: 222px;
 }
 

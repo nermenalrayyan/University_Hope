@@ -1,0 +1,121 @@
+header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+header nav .brand-title {
+  display: flex;
+  align-items: center;
+}
+header nav .brand-title p {
+  margin-left: 20px;
+  color: var(--font-color2);
+}
+header nav .switcher {
+  position: absolute;
+  visibility: hidden;
+  left: -9999px;
+}
+header nav label {
+  display: none;
+}
+header nav label i {
+  font-size: 30px;
+  margin-top: 5px;
+  color: white !important;
+}
+header nav .menu-nav {
+  z-index: 99999;
+}
+header nav .menu-nav ul {
+  margin: 0;
+}
+header nav .menu-nav ul a {
+  display: block;
+}
+
+.select-event .item {
+  padding: 1rem;
+}
+.select-event .item form {
+  padding-bottom: 10px;
+}
+.select-event .item form .select-item {
+  flex-direction: column;
+  display: flex;
+}
+.select-event .item form .select-item h6 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.select-event .item form .select-item select {
+  border-radius: 10px;
+}
+.select-event .item form .button-item {
+  text-align: center;
+  width: 14.666667%;
+}
+.select-event .item form .button-item button {
+  margin-top: 18px;
+}
+
+.event-cards .text-main p {
+  margin-bottom: 0;
+}
+
+.research-main .item section {
+  display: flex;
+  height: 11rem;
+}
+.research-main .item section img {
+  border-radius: 25px 0 0 25px;
+}
+
+/* Start library */
+.work-hours .item {
+  padding: 2rem;
+}
+.work-hours .item table {
+  width: 100%;
+}
+.work-hours .item table th {
+  color: var(--font-color4);
+  font-size: x-large;
+}
+.work-hours .item table td {
+  color: var(--font-color2);
+}
+.work-hours .item table td, .work-hours .item table th {
+  text-align: center;
+  padding: 8px 15px;
+}
+.work-hours .item table tr:nth-child(even) {
+  background-color: var(--bg-color3);
+}
+.work-hours .item table tr:nth-child(even) td {
+  color: var(--font-color2);
+}
+
+/* End library File css */
+/* Start Help File */
+.help-main .item section {
+  text-align: center;
+  width: 47%;
+}
+.help-main .item .last-section {
+  margin-left: 27%;
+}
+
+/* End Help File */
+.privacy-main .item section {
+  text-align: center;
+  width: 47%;
+}
+
+.professors-cards .item {
+  display: flex;
+  justify-content: space-between;
+}
+.professors-cards .item .text-main h6 {
+  margin: 5% 0;
+}
