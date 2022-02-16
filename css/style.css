@@ -709,7 +709,7 @@ header nav .menu-nav ul a {
 }
 
 .feature-item .feature-section .text-main {
-  padding: 1.5rem 0 !important;
+  padding: 1.5rem 0.5rem !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

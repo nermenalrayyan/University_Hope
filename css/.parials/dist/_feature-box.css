@@ -8,7 +8,7 @@
   height: 222px;
 }
 .feature-item .feature-section .text-main {
-  padding: 1.5rem 0 !important;
+  padding: 1.5rem 0.5rem !important;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
