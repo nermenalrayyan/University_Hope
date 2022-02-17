@@ -36,6 +36,8 @@ a
 .more
 {
     text-align: center;
+    margin-bottom: 1rem;
+
 }
 /* End Link */
 
@@ -100,7 +102,7 @@ button, select
     section
     {
         width: 30% !important;
-        height: fit-content;
+        height: auto;
             
         .img
         {
@@ -150,7 +152,7 @@ main
         background-color: var(--bg-color2);
         border: 3px solid var(--border-color2);
         // padding: 1rem;
-        padding: 1rem;
+        padding: 1rem 1rem 0 1rem;
         // display: flex;
         border-radius: 25px;
 
@@ -164,6 +166,7 @@ main
         section
         {
             border: 2px solid var(--border-color2);
+            margin-bottom: 1rem;
             padding: 0;
             border-radius: 25px;
             background-color: var(--bg-color3);
@@ -213,6 +216,7 @@ main
         button
         {
             margin-top: 6%;
+            margin-bottom: 1rem;
         }
     }
 }

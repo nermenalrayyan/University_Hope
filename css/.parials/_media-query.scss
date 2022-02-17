@@ -81,9 +81,33 @@
             // width: 100% !important;
             // margin: 0 !important;
             display: flex;
-            flex-direction: column-reverse;
+            flex-direction: column;
         }
     }
+
+    .cards
+    {
+        .container
+        {
+            width: 90% !important;
+        
+            .item
+            {
+                section
+                {
+                    width: 100% !important;
+
+                    .text-main 
+                    {
+                        height: 58% !important;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }        
 
 
 // End Home Page File
@@ -241,9 +265,29 @@
 
 
 
-@media (max-width: 936px)
+@media screen and (min-width: 768px) and (max-width: 936px)
 {
+    .cards
+    {
+        .item
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
 
+            section
+            {
+                width: 90% !important;
+            }
+        }
+    }
+
+
+    .more
+    {
+        position: relative;
+        left: 50%;
+    }
 }
 
 

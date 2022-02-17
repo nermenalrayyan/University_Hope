@@ -29,6 +29,7 @@ a:hover {
 
 .more {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 /* End Link */
@@ -75,9 +76,7 @@ button, select {
 
 .cards section {
   width: 30% !important;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: auto;
 }
 
 .cards section .img {
@@ -105,7 +104,7 @@ main {
 main .item {
   background-color: var(--bg-color2);
   border: 3px solid var(--border-color2);
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
   border-radius: 25px;
 }
 
@@ -117,6 +116,7 @@ main .item.item-small {
 
 main .item section {
   border: 2px solid var(--border-color2);
+  margin-bottom: 1rem;
   padding: 0;
   border-radius: 25px;
   background-color: var(--bg-color3);
@@ -163,6 +163,7 @@ main .item section .text-main p {
 
 .search-box .search button {
   margin-top: 6%;
+  margin-bottom: 1rem;
 }
 
 .line-bottom {
@@ -380,9 +381,28 @@ header nav .menu-nav ul a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cards .container {
+    width: 90% !important;
+  }
+  .cards .container .item section {
+    width: 100% !important;
+  }
+  .cards .container .item section .text-main {
+    height: 58% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   nav .open, nav .close {
     display: block;
@@ -463,6 +483,23 @@ header nav .menu-nav ul a {
   }
   .select-event form .button-item {
     text-align: center !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 936px) {
+  .cards .item {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .cards .item section {
+    width: 90% !important;
+  }
+  .more {
+    position: relative;
+    left: 50%;
   }
 }
 

@@ -27,6 +27,7 @@ a:hover {
 
 .more {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 /* End Link */
@@ -72,7 +73,7 @@ button, select {
 
 .cards section {
   width: 30% !important;
-  height: fit-content;
+  height: auto;
 }
 .cards section .img {
   height: 10rem;
@@ -94,7 +95,7 @@ main {
 main .item {
   background-color: var(--bg-color2);
   border: 3px solid var(--border-color2);
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
   border-radius: 25px;
 }
 main .item.item-small {
@@ -104,6 +105,7 @@ main .item.item-small {
 }
 main .item section {
   border: 2px solid var(--border-color2);
+  margin-bottom: 1rem;
   padding: 0;
   border-radius: 25px;
   background-color: var(--bg-color3);
@@ -137,6 +139,7 @@ main .item section .text-main p {
 }
 .search-box .search button {
   margin-top: 6%;
+  margin-bottom: 1rem;
 }
 
 .line-bottom {

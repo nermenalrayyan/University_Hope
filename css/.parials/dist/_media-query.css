@@ -37,7 +37,20 @@
 
   main section {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+
+  .cards .container {
+    width: 90% !important;
+  }
+  .cards .container .item section {
+    width: 100% !important;
+  }
+  .cards .container .item section .text-main {
+    height: 58% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   nav .open, nav .close {
@@ -106,6 +119,21 @@
   }
   .select-event form .button-item {
     text-align: center !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 936px) {
+  .cards .item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .cards .item section {
+    width: 90% !important;
+  }
+
+  .more {
+    position: relative;
+    left: 50%;
   }
 }
 @media (max-width: 991px) {
