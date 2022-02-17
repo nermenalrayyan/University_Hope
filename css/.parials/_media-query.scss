@@ -215,7 +215,27 @@
         }
     }
 
-// End Home Page File 
+// End Home Page File
+
+
+// Start Event
+.select-event
+{
+    form
+    {
+        flex-direction: column;
+
+        .select-item 
+        {  
+            margin-bottom: 10px;
+        }    
+        .button-item 
+        {
+            text-align: center !important;
+        }
+    }
+}
+// End Event
 }
 // End Medium Screens (Tablets And Larger Smartphones)
 

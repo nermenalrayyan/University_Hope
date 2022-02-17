@@ -97,6 +97,16 @@
   .footer .item:nth-of-type(2) {
     margin-left: 0 !important;
   }
+
+  .select-event form {
+    flex-direction: column;
+  }
+  .select-event form .select-item {
+    margin-bottom: 10px;
+  }
+  .select-event form .button-item {
+    text-align: center !important;
+  }
 }
 @media (max-width: 991px) {
   .feature-item .feature-section {

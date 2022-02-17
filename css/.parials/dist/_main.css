@@ -52,8 +52,7 @@ header nav .menu-nav ul a {
   border-radius: 10px;
 }
 .select-event .item form .button-item {
-  text-align: center;
-  width: 14.666667%;
+  text-align: right;
 }
 .select-event .item form .button-item button {
   margin-top: 18px;
