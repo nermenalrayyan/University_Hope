@@ -483,7 +483,7 @@ header nav .menu-nav ul a {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 936px) {
+@media screen and (min-width: 768px) and (max-width: 934px) {
   .cards .item {
     display: -ms-grid;
     display: grid;
@@ -502,6 +502,7 @@ header nav .menu-nav ul a {
 
 @media screen and (min-width: 935px) and (max-width: 990px) {
   .cards .text-main {
+    height: 57% !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
