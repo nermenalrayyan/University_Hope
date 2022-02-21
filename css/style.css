@@ -158,11 +158,9 @@ main .item section .text-main p {
   margin: 1rem 0;
   border-radius: 16px;
   border: 3px solid var(--border-color1);
-  margin-bottom: -17px;
 }
 
 .search-box .search button {
-  margin-top: 6%;
   margin-bottom: 1rem;
 }
 
@@ -336,6 +334,18 @@ header nav .menu-nav ul a {
 
 .hero section .hero-buttons button {
   margin: 0 10px 20px 10px;
+}
+
+@media screen and (max-width: 460px) {
+  .search-box button {
+    font-size: 3.9vw;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  html, body {
+    overflow-x: hidden !important;
+  }
 }
 
 @media screen and (max-width: 320px) {
