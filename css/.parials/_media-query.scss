@@ -15,14 +15,6 @@
 
 @media (max-width: 425px)
 {
-    // .hero
-    // {
-    //     section 
-    //     {
-    //         height: 137vh;        
-    //     }
-    // }
-
     h1
     {
         font-size: 8vw;
@@ -78,8 +70,6 @@
 
     main {
         section {
-            // width: 100% !important;
-            // margin: 0 !important;
             display: flex;
             flex-direction: column;
         }
@@ -114,8 +104,6 @@
     // Start Navbar
     nav
     {
-        // margin-right: -3px;
-    
         .open, .close
         {
             display: block;
@@ -175,7 +163,6 @@
     {
         section
         {
-            // height: 102vh;
             display: flex;
             flex-wrap: wrap;
             align-items: flex-end;
@@ -183,19 +170,8 @@
             flex-direction: column-reverse;
            
 
-            // .hero-items 
-            // {
-            //     // position: absolute;
-            //     // left: 0 !important;
-            //     // padding: 5% 0;
-            //     // width: 100%;
-            // }
-
             .img-hero
             {
-
-                // height: 55%;
-
                 img
                 {
                     border-radius: 24px 24px 0 0 !important;
@@ -210,21 +186,6 @@
     }
     // End Hero
 
-    //     .research-main
-    //     {
-    //         .item
-    //         {   
-    //             display: flex;
-    //             flex-wrap: wrap;
-    //             align-items: flex-end;
-    //             align-content: space-between;
-    //             flex-direction: column-reverse;
-
-    //             section
-    //             {
-    //             }
-    //         }
-    //     }
 
     // Start Footer
     .footer
@@ -265,13 +226,7 @@
 
 @media screen and (min-width: 770px) and (max-width: 786px)
 {
-    .hero
-    {
-        .img-hero 
-        {
-            // height: 59vh !important;
-        }
-    }
+
 }
 
 
@@ -332,13 +287,7 @@
 
 @media screen and (max-width: 994px)
 {
-    .hero
-    {
-        .img-hero 
-        {
-            // height: 54vh !important;
-        }
-    }
+
 }
 // End Medium Screens (Tablets And Larger Smartphones)
 
@@ -347,13 +296,7 @@
 // Start Large Screens (Laptops)
 @media screen and (min-width: 995px) and (max-width: 1236px)
 {
-    .hero
-    {
-        .img-hero 
-        {
-            // height: 49vh !important;
-        }
-    }
+
 }
 
 @media (min-width: 769px) and (max-width: 1299px)
