@@ -9,6 +9,8 @@
             left: 11% !important;
         }
     }
+
+
     .search-box
     {
 
@@ -21,10 +23,12 @@
     .research-main
     {
         h5 {
+            // font-size: 4.5vw;
             font-size: 5vw;
         }
 
         p {
+            // font-size: 3.3vw;
             font-size: 4vw;
         }
     }
@@ -76,6 +80,23 @@
             }
         }
     }
+
+    .work-hours
+    {
+        .item {
+            padding: 1rem !important;
+            
+            th
+            {
+                font-size: 5vw !important;
+            }
+
+            td
+            {
+                font-size: 3.5vw;
+            }
+        }
+    }
 }
 // Start Mobile Screens
 
@@ -106,6 +127,30 @@
                     margin-right: 20px;
                 }
             }
+    }
+}
+
+@media screen and (max-width: 770px)
+{
+    .cards
+    {
+        .more
+        {
+            position: relative !important;
+            // left: 50% !important;
+        }
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 991px)
+{
+    .cards
+    {
+        .more
+        {
+            position: relative !important;
+            left: 50% !important;
+        }
     }
 }
 

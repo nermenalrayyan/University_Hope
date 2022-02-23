@@ -395,6 +395,15 @@ header nav .menu-nav ul a {
   .research-main .more button {
     font-size: 4vw;
   }
+  .work-hours .item {
+    padding: 1rem !important;
+  }
+  .work-hours .item th {
+    font-size: 5vw !important;
+  }
+  .work-hours .item td {
+    font-size: 3.5vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -416,6 +425,19 @@ header nav .menu-nav ul a {
   }
   footer .item:nth-of-type(1) h5 {
     margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .cards .more {
+    position: relative !important;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 991px) {
+  .cards .more {
+    position: relative !important;
+    left: 50% !important;
   }
 }
 
