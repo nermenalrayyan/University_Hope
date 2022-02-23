@@ -198,6 +198,10 @@ main
 {
     position: relative;
     
+    h1
+    {
+        margin-bottom: 0 !important;
+    }
     .search
     {
         display: flex;

@@ -1,8 +1,17 @@
 // Start Mobile Screens
 @media screen and (max-width: 460px)
 {
+    main
+    {
+        .item.item-small {
+            width: 85% !important;
+            // position: relative;
+            left: 11% !important;
+        }
+    }
     .search-box
     {
+
         button
         {
             font-size: 3.9vw;
@@ -75,6 +84,10 @@
 // Start Large Screens
 @media screen and (max-width: 768px)
 {
+    .container
+    {
+        width: 90% !important;
+    }
     footer
     {
         .item

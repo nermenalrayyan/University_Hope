@@ -140,6 +140,10 @@ main .item section .text-main p {
   position: relative;
 }
 
+.search-box h1 {
+  margin-bottom: 0 !important;
+}
+
 .search-box .search {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -337,6 +341,10 @@ header nav .menu-nav ul a {
 }
 
 @media screen and (max-width: 460px) {
+  main .item.item-small {
+    width: 85% !important;
+    left: 11% !important;
+  }
   .search-box button {
     font-size: 3.9vw;
   }
@@ -390,6 +398,9 @@ header nav .menu-nav ul a {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    width: 90% !important;
+  }
   footer .item {
     display: -webkit-box;
     display: -ms-flexbox;
