@@ -97,6 +97,14 @@
             }
         }
     }
+
+    .social-links
+    {
+        a
+        {
+            font-size: 4vw !important;
+        }
+    }
 }
 // Start Mobile Screens
 
@@ -197,6 +205,19 @@
                     text-align: center !important;
                 }
             }
+        }
+    }
+
+    .cards
+    {
+        .text-main
+        {
+            height: 50% !important;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
         }
     }
 }
@@ -533,17 +554,7 @@
 
 @media screen and (min-width: 935px) and (max-width: 990px)
 {
-    .cards
-    {
-        .text-main
-        {
-            height: 50% !important;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: space-between;
-        }
-    }
+
 }
 
 

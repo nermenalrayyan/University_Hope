@@ -185,6 +185,7 @@ main .item section .text-main p {
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin-bottom: 0;
+  padding-left: 17px !important;
 }
 
 .social-links li {
@@ -195,7 +196,7 @@ main .item section .text-main p {
 }
 
 .social-links li a {
-  font-size: 28px !important;
+  font-size: 28px;
 }
 
 .social-links li a:hover {
@@ -404,6 +405,9 @@ header nav .menu-nav ul a {
   .work-hours .item td {
     font-size: 3.5vw;
   }
+  .social-links a {
+    font-size: 4vw !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -479,6 +483,23 @@ header nav .menu-nav ul a {
   }
   .research-main section .text-main p {
     text-align: center !important;
+  }
+  .cards .text-main {
+    height: 50% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -643,23 +664,6 @@ header nav .menu-nav ul a {
   }
   .cards .item section {
     width: 90% !important;
-  }
-}
-
-@media screen and (min-width: 935px) and (max-width: 990px) {
-  .cards .text-main {
-    height: 50% !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
 }
 
@@ -860,7 +864,7 @@ header nav .menu-nav ul a {
 .footer .first-row ul {
   font-size: 15px !important;
   font-weight: 500;
-  padding-left: 0;
+  padding-left: 0 !important;
   margin: 0;
 }
 
