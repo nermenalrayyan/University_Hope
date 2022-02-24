@@ -100,9 +100,13 @@
 
     .social-links
     {
-        a
-        {
-            font-size: 4vw !important;
+        ul {
+            // padding-left: 9.5%;
+
+            a
+            {
+                font-size: 4vw !important;
+            }
         }
     }
 }

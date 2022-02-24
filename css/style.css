@@ -405,7 +405,7 @@ header nav .menu-nav ul a {
   .work-hours .item td {
     font-size: 3.5vw;
   }
-  .social-links a {
+  .social-links ul a {
     font-size: 4vw !important;
   }
 }
@@ -802,6 +802,7 @@ header nav .menu-nav ul a {
 
 .work-hours .item table td {
   color: var(--font-color2);
+  width: 50%;
 }
 
 .work-hours .item table td, .work-hours .item table th {
