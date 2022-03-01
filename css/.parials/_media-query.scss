@@ -1,4 +1,28 @@
 // Start Mobile Screens
+@media screen and (max-width: 320px)
+{
+    header
+    {
+        nav
+        {
+            padding: 10px 0;
+            // height: 15vh !important;
+
+        
+            img {
+                width: 28vw !important;
+            }
+    
+            label
+            {
+                i {
+                    font-size: 10vw !important;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 460px)
 {
     main
@@ -98,17 +122,6 @@
         }
     }
 
-    .social-links
-    {
-        ul {
-            // padding-left: 9.5%;
-
-            a
-            {
-                // font-size: 4vw !important;
-            }
-        }
-    }
 }
 // Start Mobile Screens
 
@@ -121,6 +134,32 @@
     {
         width: 90% !important;
     }
+
+    .help-main, .privacy-main
+    {
+        .item
+        {
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+
+           section
+           {
+               width: 100% !important;
+
+                .text-main
+                {
+                    height: 100% !important;
+                }
+           }
+
+           .last-section 
+            {
+                margin-left: 0 !important;
+            }
+        }
+    }
+
     footer
     {
         .item
@@ -129,6 +168,13 @@
             flex-direction: column;
             align-items: center;
             text-align: center !important;
+
+            .social-links
+            {
+                li {
+                    margin: 0 0.6rem;
+                }
+            }
         }
 
         // .item:nth-of-type(1)
@@ -142,21 +188,58 @@
     }
 }
 
-@media screen and (max-width: 770px)
+// @media screen and (max-width: 770px)
+// {
+//     .cards
+//     {
+//         .more
+//         {
+//             position: relative !important;
+//             // left: 50% !important;
+//         }
+//     }
+// }
+
+@media screen and (min-width: 770px) and (max-width: 990px)
 {
     .cards
     {
-        .more
+        .item
         {
-            position: relative !important;
-            // left: 50% !important;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+        }
+    }
+
+    .professors-cards
+    {
+        .item
+        {
+            section
+            {
+                width: 49% !important;
+            }
+    
+            .more {
+                position: relative;
+                right: 0%;
+            }
+        }
+    }
+
+    .event-cards
+    {
+        section
+        {
+            width: 95% !important;
         }
     }
 }
 
 @media screen and (min-width: 770px) and (max-width: 991px)
 {
-    .cards
+    .event-cards
     {
         .more
         {
@@ -165,6 +248,8 @@
         }
     }
 }
+
+
 
 @media screen and (max-width: 991px)
 {
@@ -212,16 +297,23 @@
         }
     }
 
-    .cards
+    .cards, .help-main
     {
         .text-main
         {
-            height: 50% !important;
             display: flex;
             flex-direction: column;
             text-align: center;
             align-items: center;
             justify-content: space-between;
+        }
+    }
+
+    .cards
+    {
+        .text-main
+        {
+            height: 50% !important;
         }
     }
 }
@@ -324,6 +416,8 @@
     h1
     {
         font-size: 8vw;
+        font-size: 7vw;
+
     }
 
     h6
@@ -536,23 +630,7 @@
 }
 
 
-@media screen and (min-width: 770px) and (max-width: 990px)
-{
-    .cards
-    {
-        .item
-        {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            justify-items: center;
 
-            section
-            {
-                width: 90% !important;
-            }
-        }
-    }
-}
 
 
 

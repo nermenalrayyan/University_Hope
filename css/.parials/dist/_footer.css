@@ -9,7 +9,7 @@
 .footer .first-row ul {
   font-size: 15px !important;
   font-weight: 500;
-  padding-left: 0;
+  padding-left: 0 !important;
   margin: 0;
 }
 .footer .first-row .item {
@@ -34,7 +34,7 @@
   text-decoration: underline;
 }
 .footer .copyright {
-  padding-bottom: 3rem;
+  padding-bottom: 2.6rem;
   text-align: center;
   height: 22px;
 }

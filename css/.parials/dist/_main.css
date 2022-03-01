@@ -83,6 +83,7 @@ header nav .menu-nav ul a {
 }
 .work-hours .item table td {
   color: var(--font-color2);
+  width: 50%;
 }
 .work-hours .item table td, .work-hours .item table th {
   text-align: center;
@@ -96,21 +97,16 @@ header nav .menu-nav ul a {
 }
 
 /* End library File css */
-/* Start Help File */
-.help-main .item section {
+/* Start Help and Privacy File */
+.help-main .item section, .privacy-main .item section {
   text-align: center;
-  width: 47%;
+  width: 49%;
 }
-.help-main .item .last-section {
+.help-main .item .last-section, .privacy-main .item .last-section {
   margin-left: 27%;
 }
 
-/* End Help File */
-.privacy-main .item section {
-  text-align: center;
-  width: 47%;
-}
-
+/* End Help and Privacy File */
 .professors-cards .item {
   display: flex;
   justify-content: space-between;
