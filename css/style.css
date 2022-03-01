@@ -351,6 +351,24 @@ header nav .menu-nav ul a {
   header nav label i {
     font-size: 10vw !important;
   }
+  .hero-buttons {
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 7vw;
+  }
+  h6 {
+    text-align: center;
+  }
+  p {
+    font-size: 4vw;
+  }
+  .hero-buttons .button-1 {
+    font-size: 4vw;
+  }
 }
 
 @media screen and (max-width: 460px) {
@@ -419,155 +437,6 @@ header nav .menu-nav ul a {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    width: 90% !important;
-  }
-  .help-main .item section, .privacy-main .item section {
-    width: 100% !important;
-  }
-  .help-main .item section .text-main, .privacy-main .item section .text-main {
-    height: 100% !important;
-  }
-  .help-main .item .last-section, .privacy-main .item .last-section {
-    margin-left: 0 !important;
-  }
-  footer .item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center !important;
-  }
-  footer .item .social-links li {
-    margin: 0 0.6rem;
-  }
-}
-
-@media screen and (min-width: 770px) and (max-width: 990px) {
-  .cards .item {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    justify-items: center;
-  }
-  .professors-cards .item section {
-    width: 49% !important;
-  }
-  .professors-cards .item .more {
-    position: relative;
-    right: 0%;
-  }
-  .event-cards section {
-    width: 95% !important;
-  }
-}
-
-@media screen and (min-width: 770px) and (max-width: 991px) {
-  .event-cards .more {
-    position: relative !important;
-    left: 50% !important;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .search-box button {
-    margin-bottom: 0.9rem !important;
-  }
-  .research-main section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 100% !important;
-  }
-  .research-main section .img {
-    height: 34vh;
-  }
-  .research-main section .img img {
-    border-radius: 25px 25px 0 0 !important;
-  }
-  .research-main section .text-main {
-    height: 50% !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .research-main section .text-main h5 {
-    text-align: center;
-  }
-  .research-main section .text-main p {
-    text-align: center !important;
-  }
-  .cards .text-main, .help-main .text-main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .cards .text-main {
-    height: 50% !important;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  html, body {
-    overflow-x: hidden !important;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .hero-buttons {
-    text-align: center;
-  }
-  .hero-buttons button {
-    margin: 0 0 20px 0 !important;
-  }
-}
-
-@media (max-width: 425px) {
-  h1 {
-    font-size: 8vw;
-    font-size: 7vw;
-  }
-  h6 {
-    text-align: center;
-  }
-  p {
-    font-size: 4vw;
-  }
-  .hero-buttons .button-1 {
-    font-size: 4vw;
-  }
-}
-
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .footer .first-row {
     display: -ms-grid !important;
@@ -579,8 +448,8 @@ header nav .menu-nav ul a {
 }
 
 @media screen and (max-width: 769px) {
-  html, body {
-    overflow-x: hidden !important;
+  .container {
+    width: 90% !important;
   }
   main section {
     display: -webkit-box;
@@ -609,6 +478,15 @@ header nav .menu-nav ul a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  .help-main .item section, .privacy-main .item section {
+    width: 100% !important;
+  }
+  .help-main .item section .text-main, .privacy-main .item section .text-main {
+    height: 100% !important;
+  }
+  .help-main .item .last-section, .privacy-main .item .last-section {
+    margin-left: 0 !important;
   }
   nav .open, nav .close {
     display: block;
@@ -672,7 +550,23 @@ header nav .menu-nav ul a {
   .hero section .img-hero, .hero section .hero-items {
     width: 100%;
   }
-  .footer .item:nth-of-type(2) {
+  footer .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center !important;
+  }
+  footer .item .social-links li {
+    margin: 0 0.6rem;
+  }
+  footer .item:nth-of-type(2) {
     margin-left: 0 !important;
   }
   .select-event form {
@@ -689,9 +583,99 @@ header nav .menu-nav ul a {
   }
 }
 
-@media (max-width: 991px) {
+@media screen and (min-width: 770px) and (max-width: 990px) {
+  .cards .item {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .professors-cards .item section {
+    width: 49% !important;
+  }
+  .professors-cards .item .more {
+    position: relative;
+    right: 0%;
+  }
+  .event-cards section {
+    width: 95% !important;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 991px) {
+  .event-cards .more {
+    position: relative !important;
+    left: 50% !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
   .feature-item .feature-section {
     margin: 10px;
+  }
+  .search-box button {
+    margin-bottom: 0.9rem !important;
+  }
+  .research-main section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100% !important;
+  }
+  .research-main section .img {
+    height: 34vh;
+  }
+  .research-main section .img img {
+    border-radius: 25px 25px 0 0 !important;
+  }
+  .research-main section .text-main {
+    height: 50% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .research-main section .text-main h5 {
+    text-align: center;
+  }
+  .research-main section .text-main p {
+    text-align: center !important;
+  }
+  .cards .text-main, .help-main .text-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .cards .text-main {
+    height: 50% !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  html, body {
+    overflow-x: hidden !important;
   }
 }
 
