@@ -54,10 +54,6 @@
   .work-hours .item td {
     font-size: 3.5vw;
   }
-
-  .social-links ul a {
-    font-size: 4vw !important;
-  }
 }
 @media screen and (max-width: 768px) {
   .container {
@@ -69,9 +65,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center !important;
-  }
-  footer .item:nth-of-type(1) h5 {
-    margin-right: 20px;
   }
 }
 @media screen and (max-width: 770px) {
