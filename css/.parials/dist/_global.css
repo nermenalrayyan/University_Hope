@@ -76,7 +76,7 @@ button, select {
   height: auto;
 }
 .cards section .img {
-  height: 10rem;
+  height: 300px;
 }
 .cards section .img img {
   border-radius: 25px 25px 0 0;
@@ -116,7 +116,6 @@ main .item section img {
 }
 main .item section .text-main {
   padding: 1rem;
-  height: 100%;
 }
 main .item section .text-main p {
   line-height: 22px;
@@ -124,6 +123,9 @@ main .item section .text-main p {
 
 .search-box {
   position: relative;
+}
+.search-box h1 {
+  margin-bottom: 0 !important;
 }
 .search-box .search {
   display: flex;
@@ -135,10 +137,8 @@ main .item section .text-main p {
   margin: 1rem 0;
   border-radius: 16px;
   border: 3px solid var(--border-color1);
-  margin-bottom: -17px;
 }
 .search-box .search button {
-  margin-top: 6%;
   margin-bottom: 1rem;
 }
 
@@ -157,6 +157,7 @@ main .item section .text-main p {
 .social-links {
   display: inline-flex;
   margin-bottom: 0;
+  padding-left: 17px !important;
 }
 .social-links li {
   margin-right: 1.5rem;
@@ -164,7 +165,7 @@ main .item section .text-main p {
   transition: 0.3s ease;
 }
 .social-links li a {
-  font-size: 28px !important;
+  font-size: 28px;
 }
 .social-links li a:hover {
   font-size: 40px !important;
