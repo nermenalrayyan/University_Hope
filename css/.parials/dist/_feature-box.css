@@ -4,7 +4,7 @@
 }
 .feature-item .feature-section {
   border-radius: 74px !important;
-  width: 125px;
+  width: 126px;
   height: 222px;
 }
 .feature-item .feature-section .text-main {
@@ -13,6 +13,7 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  height: 100%;
   border-radius: 74px !important;
 }
 .feature-item .feature-section .text-main .img {
